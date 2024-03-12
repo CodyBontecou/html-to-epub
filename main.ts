@@ -21,6 +21,6 @@ got('https://paulgraham.com/ramenprofitable.html').then(response => {
       ],
     }
 
-    new Epub(option, './output.epub')
+    new Epub(option, './ramen-profitable.epub')
   }
 })
