@@ -1,0 +1,22 @@
+{
+  "name": "html-to-epub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "main": "npx tsx main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "epub-gen": "^0.1.0",
+    "got": "^14.2.1",
+    "jsdom": "^24.0.0"
+  },
+  "devDependencies": {
+    "@types/got": "^9.6.12"
+  }
+}
